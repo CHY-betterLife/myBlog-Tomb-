@@ -1,0 +1,23 @@
+#footer {
+  position: fixed;
+  bottom: 0px;
+  float: left;
+  padding: 0px;
+  width: 100%;
+  color: #bbb;
+  font-size: 12px;
+}
+#footer::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+#footer #footeInfo {
+  line-height: 39px;
+  text-align: center;
+}
+#footer #footeInfo a {
+  color: #bbb;
+  font-size: 12px;
+  text-decoration: none;
+}

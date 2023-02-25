@@ -1,0 +1,79 @@
+html {
+  font-family: icontfont;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}
+body {
+  margin: 0px;
+  font-size: small;
+  background-color: #F0F0F0;
+  color: #000000;
+}
+#wrapper::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+#wrapper #leftWrap {
+  float: left;
+  padding-bottom: 20px;
+  padding: 0px;
+  width: 67%;
+}
+#wrapper #leftWrap #head {
+  margin-left: 30px;
+}
+#wrapper #leftWrap #head h1 {
+  font-size: 240%;
+  line-height: 125%;
+  padding-left: 0px;
+  text-align: center;
+}
+#wrapper #leftWrap #head hr {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  border-style: inset;
+  border-width: 1px;
+}
+#wrapper #leftWrap #content {
+  margin-left: 30px;
+}
+#wrapper #leftWrap #content #post {
+  background-color: antiquewhite;
+}
+#wrapper #rightWrap {
+  background-color: #FFFFFF;
+  color: #000000;
+  padding-left: 20px;
+  width: 30%;
+  border-left: 2px dashed #000000;
+  float: right;
+}
+#wrapper #rightWrap #contentWrap #personInfo {
+  margin: auto;
+  border-radius: 25px;
+  background-color: whitesmoke;
+  text-align: center;
+  box-shadow: 5px 3px 3px 3px lightgray;
+  height: 60%;
+  width: 60%;
+}
+#wrapper #rightWrap #contentWrap #personInfo img {
+  border-radius: 50%;
+  height: 144px;
+  width: 116px;
+  margin: auto;
+}
+#wrapper #rightWrap #contentWrap #navWrap {
+  margin-top: 20px;
+}
+#wrapper #rightWrap #contentWrap #navWrap #blogIntroduction {
+  margin-top: 20px;
+}
+@media (max-width: 750px) {
+  #rightWrap {
+    display: none;
+  }
+}
